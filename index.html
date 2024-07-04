@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+</head>
+<body>
+    <p>Изучение JawaScript</p>
+    <noscript>нужно включить JSа</noscript>
+<script>
+    //комментарий
+    document.write('Js говорит привет! ');
+    //console.log('Js говорит привет!');
+    //console.info('Js говорит привет!');
+    //console.error('Js говорит привет!');
+    //console.warn('Js говорит привет!');
+    
+    //Переменные
+    /*
+    var num_1 = 5;
+    var num_2 = '2';
+    var anser = num_1 + num_2;
+
+    console.log(anser);
+    document.write(anser);
+    */
+
+
+    //Мат.действия
+    var res = 1;
+    
+    function choice(res, num_1,num_2){
+        
+        switch(res){
+            case 1:
+            var anser = 0; 
+            anser =  num_1 + num_2;   
+            document.write(anser);
+            console.log(anser);
+            break
+            case 0:
+            anser = num_1 - num_2;
+            document.write(anser);
+            console.log(anser);
+            break;
+        }
+    }
+
+
+    var num_1 = 5;
+    var num_2 = 6;
+   
+    if(num_1 > num_2){
+        res = 0;
+        choice;
+    }else{
+        res = 1;
+        choice;
+    }
+
+
+ 
+
+
+
+
+
+
+
+</script>
+</body>
+</html>
